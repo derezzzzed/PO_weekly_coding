@@ -1,0 +1,7 @@
+Salesforce has two different ways to add customizations into the org. Declarative customizations allow for a quick, codeless addition to the org. 
+It's best practice to use declarative customizations over programmatic customization because declarative customizations are updated along with any
+new versions of Salesforce. Whereas programmatic customizations will likely not be updated along with newer versions therefore making them difficult 
+to maintain because it would have to be manually maintained. Also, using declarative customizations allows for many of the testing and security
+enforcement of the org to be applied automatically. On the otherhand, Programattic customizations allow for very precise functions that would
+otherwise be impossible using normal declarative functions. But again, many of the programttic customizations would require use of security 
+keywords into the code because it default runs on the system level where nothing is enforced.
